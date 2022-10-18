@@ -23,7 +23,7 @@ There are two parameters that can be configured in the file `conf.yml`
 
 - `gitRootDir` (optional): Specifies the path the root directory used to keep the cloned repositories. I like to keep all of them in `$HOME/git`, but you may use any folder you want.
   
-- `kNames` (mandatory): A list of all the keys that you may use for GitHub ssh-authenticated sessions. Those keys should be previously created and included in the default SSH directory (/home/you/.ssh)
+- `kNames` (mandatory): A list of the names of all the keys that you may use for GitHub ssh-authenticated sessions. Those keys should be previously created and included in the default SSH directory (/home/you/.ssh)
 ## Usage
 
 First of all, clone the repo
