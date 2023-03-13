@@ -2,13 +2,13 @@
 ## Generating OpenSSH key pair (github)
 # Github Docs: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-#1. Generate the key: `ssh-keygen -t ed25519 -C "your_email@example.com"`
-#2. Adding your SSH key to the ssh-agent
+# 1. Generate the key: `ssh-keygen -t ed25519 -C "your_email@example.com"`
+# 2. Adding your SSH key to the ssh-agent
 #  1. Start ssh-agent in the background: `eval "$(ssh-agent -s)"`
 #  2. Add the key to the agent: `ssh-add ~/.ssh/id_ed25519`
 #  3. Add the key to GitHub: `cat ~/.ssh/id_ed25519.pub`
 
-#TODO: add log (sessions created and attemps (dir and keys), git commands (clone, pull, commit, push...))
+# TODO: add log (sessions created and attemps (dir and keys), git commands (clone, pull, commit, push...))
 
 # ----------------------------------------------------
 # GLOBALS
